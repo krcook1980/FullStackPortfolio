@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kelly Cook Portfolio</title>
+    <title>Kelly Cook Contact Me</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="style.css" class="style">
     <script src="https://smtpjs.com/v3/smtp.js">
@@ -13,12 +13,12 @@
 
 <body class="bg">
     <section class="section has-text-white">
-        <div class="container">
+        <div class="container has-text-white">
             <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-                <div class="navbar-start">
+                <div class="navbar-start ml-6 pt-2 is-size-3">
                     <h1>Kelly Cook</h1>
 
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    <a role="button" class="navbar-burger has-text-white" aria-label="menu" aria-expanded="false"
                         data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
@@ -27,17 +27,20 @@
                 </div>
 
                 <div id="navbarBasicExample" class="navbar-menu">
-                    <div class="navbar-end">
-                        <a class="navbar-item" href="index.html">
+                    <div class="navbar-end mr-6">
+                        <a class="navbar-item has-text-white is-size-4" href="index.html">
                             About
                         </a>
 
-                        <a class="navbar-item" href="portfolio.html">
+                        <a class="navbar-item  has-text-white is-size-4" href="portfolio.html">
                             Portfolio
                         </a>
 
-                        <a class="navbar-item" href="contact.html">
+                        <a class="navbar-item has-text-white is-size-4" href="contact.html">
                             Contact
+                        </a>
+                        <a class="navbar-item has-text-white is-size-4" href="https://drive.google.com/file/d/1SJ581vFaJsF5xyGR25YjiRMnZx1Jhdwx/view?usp=sharing" target="_blank">
+                            Resume
                         </a>
 
                     </div>
@@ -53,23 +56,23 @@
 
             </div>
             <div class="column is-6">
-                <div class="field">
-                    <label class="label   has-text-white">Name</label>
+                <div class="field mb-6">
+                    <label class="label   has-text-white is-size-3">Name</label>
                     <div class="control">
                         <input class="input name" type="text" placeholder="Your Name">
                     </div>
                 </div>
 
-                <div class="field">
-                    <label class="label has-text-white">Email</label>
+                <div class="field mb-6">
+                    <label class="label has-text-white is-size-3">Email</label>
                     <div class="control">
                         <input class="input email" type="email" placeholder="Your Email">
                     </div>
                 </div>
-                <label class="label has-text-white comment">Message</label>
-                <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
+                <label class="label has-text-white comment is-size-3">Message</label>
+                <textarea class="textarea mb-6" placeholder="Your Message"></textarea>
                 <div class="has-text-justified">
-                    <button class="submit">Send my email!</button>
+                    <a class="button is-black is-medium has-text-white">Send my email!</a>
                 </div>
                 <div class="emailNotification has-text-white"></div>
             </div>
