@@ -1,0 +1,19 @@
+.bg{
+    background-image: url("assets/brian-patrick-tagalog-_8hGFBxWD0A-unsplash.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #171717; /* Used if the image is unavailable */
+    height: 1000px;
+    background-size: cover;
+    overflow: auto;
+}
+
+.navbar{
+    background-color: #171717;
+    
+}
+
+.profilePic{
+    float: right;
+    margin-right: 5%;
+    width: 20%;
+}
