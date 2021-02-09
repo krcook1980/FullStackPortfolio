@@ -11,7 +11,9 @@
     background-color: #171717;
     
 }
-
+.is-active{
+    background-color: #171717;
+}
 .profilePic{
     float: right;
     margin-right: 5%;

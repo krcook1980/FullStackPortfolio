@@ -7,28 +7,29 @@
     <title>Kelly Cook Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="style.css" class="style">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body class="bg">
     <section class="section">
-        <div class="container has-text-white ">
+        <div class="container has-text-white">
             <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand ml-6">
                     <a class="navbar-item" href="index.html">
                       <img src="assets/logo.png" width="40" height="50">
                     </a>
-                
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                      <span aria-hidden="true"></span>
-                      <span aria-hidden="true"></span>
-                      <span aria-hidden="true"></span>
-                    </a>
+                    
+                    <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                      </a>
                   </div>
                 <div class="navbar-start ml-3 pt-2 is-size-3">
                     <h1>Kelly Cook</h1>
                 </div>
 
-                <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div id="menu" class="navbar-menu">
                     <div class="navbar-end mr-6">
                         <a class="navbar-item has-text-white is-size-4" href="index.html">
                             About
@@ -44,7 +45,7 @@
                         <a class="navbar-item has-text-white is-size-4" href="https://drive.google.com/file/d/1SJ581vFaJsF5xyGR25YjiRMnZx1Jhdwx/view?usp=sharing" target="_blank">
                             Resume
                         </a>
-
+                        <a class="navbar-item is-hidden-touch" href="#where-section"></a>
                     </div>
                 </div>
 
@@ -53,10 +54,15 @@
 
     </section>
     <main>
+        <div class="is-flex-touch mt-6 has-text-white columns">
+           <div class="column is-12">
+            <p>Projects:</p>
+        </div>
+        </div>
         <!-- Cards for individual portfolio highlights Column 1 -->
         <div class="columns">
             <div class="column is-4">
-                <div class="card mb-6">
+                <div class="card mb-6 mt-3">
                     <header class="card-header">
                         <p class="card-header-title">
                           Inventory Organization Utility
@@ -110,7 +116,7 @@
             </div>
             <!-- Cards for individual portfolio highlights Column 2 -->
             <div class="column is-4">
-                <div class="card mb-6">
+                <div class="card mb-6 mt-3">
                     <header class="card-header">
                         <p class="card-header-title">
                           Weather Dashboard
@@ -161,7 +167,7 @@
             </div>
             <!-- Cards for individual portfolio highlights Column 3 -->
             <div class="column is-4">
-                <div class="card mb-6">
+                <div class="card mb-6 mt-3">
                     <header class="card-header">
                         <p class="card-header-title">
                           Bootcamp How To
@@ -211,6 +217,7 @@
             </div>
             
         </div>
+      
         <script src="script.js"></script>
     </main>
 </body>
