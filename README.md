@@ -10,6 +10,6 @@ Updated portfolio using Bulma. Included 6 completed projects on my portfolio pag
 
 ## Screenshots
 
-<img src="https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/rm1.pdf">
-<img src="https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/rm2.pdf">
-<img src="https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/rm2.pdf">
+<img src="https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/rm1.JPG">
+<img src="https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/rm2.JPG">
+<img src="https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/rm3.JPG">
