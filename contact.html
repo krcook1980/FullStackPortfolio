@@ -18,15 +18,16 @@
             <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand ml-6">
                     <a class="navbar-item" href="index.html">
-                      <img src="assets/logo.png" width="40" height="50">
+                        <img src="assets/logo.png" width="40" height="50" alt="elephant logo">
                     </a>
-                
-                    <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                      <span aria-hidden="true"></span>
-                      <span aria-hidden="true"></span>
-                      <span aria-hidden="true"></span>
+
+                    <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
                     </a>
-                  </div>
+                </div>
                 <div class="navbar-start ml-3 pt-2 is-size-3">
                     <h1>Kelly Cook</h1>
                 </div>
@@ -43,8 +44,7 @@
                         <a class="navbar-item has-text-white is-size-4" href="contact.html">
                             Contact
                         </a>
-                        <a class="navbar-item has-text-white is-size-4"
-                            href="assets/Kelly_Cook_Resume.pdf" download>
+                        <a class="navbar-item has-text-white is-size-4" href="assets/Kelly_Cook_Resume.pdf" download>
                             Resume
                         </a>
 
@@ -64,37 +64,39 @@
                 <div class="content has-text-white is-size-3 mb-6">
                     Kelly Cook&nbsp;&nbsp; |&nbsp;&nbsp; 435-867-5309&nbsp;&nbsp; |&nbsp;&nbsp; kellyrcook1980@gmail.com
                 </div>
-                <div class="field mb-6">
-                    <form id="my-form" action="https://formspree.io/f/xrgoddyl" method="POST">
+                <form id="my-form" action="https://formspree.io/f/xrgoddyl" method="POST">
+                    <div class="field mb-6">
+
                         <label class="label   has-text-white is-size-3">Name</label>
                         <div class="control">
-                            <input class="input" id="my-form" type="text" placeholder="Your Name">
+                            <input class="input" type="text" placeholder="Your Name">
                         </div>
-                </div>
-                
-                <div class="field mb-6">
-                    <label class="label has-text-white is-size-3">Email</label>
-                    <div class="control">
-                        <input class="input email" type="email" name="email" placeholder="Your Email">
                     </div>
-                </div>
-                <label class="label has-text-white comment is-size-3">Message</label>
-                <textarea class="textarea mb-6" type="text" name="message" placeholder="Your Message"></textarea>
-                <div class="has-text-justified">
 
-                    <button class="button is-dark is-large is-size-3 is-fullwidth" id="my-form-button">Submit</button>
-                </div>
-                <div class="has-text-white">
-                    <p id="my-form-status" class="has-text-white mt-6"></p>
-                    </form>
-                </div>
+                    <div class="field mb-6">
+                        <label class="label has-text-white is-size-3">Email</label>
+                        <div class="control">
+                            <input class="input email" type="email" name="email" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <label class="label has-text-white comment is-size-3">Message</label>
+                    <textarea class="textarea mb-6" name="message" placeholder="Your Message"></textarea>
+                    <div class="has-text-justified">
+
+                        <button class="button is-dark is-large is-size-3 is-fullwidth"
+                            id="my-form-button">Submit</button>
+                    </div>
+                    <div class="has-text-white">
+                        <p id="my-form-status" class="has-text-white mt-6"></p>
+                    </div>
+                </form>
             </div>
+        </div>
 
-            <div class="column is-3">
-
-            </div>
+        <div class="column is-3">
 
         </div>
+
     </main>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
