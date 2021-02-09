@@ -39,7 +39,8 @@
                         <a class="navbar-item has-text-white is-size-4" href="contact.html">
                             Contact
                         </a>
-                        <a class="navbar-item has-text-white is-size-4" href="https://drive.google.com/file/d/1SJ581vFaJsF5xyGR25YjiRMnZx1Jhdwx/view?usp=sharing" target="_blank">
+                        <a class="navbar-item has-text-white is-size-4"
+                            href="assets/Kelly_Cook_Resume.pdf" download>
                             Resume
                         </a>
 
@@ -55,27 +56,33 @@
             <div class="column is-3">
 
             </div>
-            <div class="column is-6">
+            <div class="column mt-6 is-6">
                 <div class="field mb-6">
-                    <label class="label   has-text-white is-size-3">Name</label>
-                    <div class="control">
-                        <input class="input name" type="text" placeholder="Your Name">
-                    </div>
+                    <form id="my-form" action="https://formspree.io/f/xrgoddyl" method="POST">
+                        <label class="label   has-text-white is-size-3">Name</label>
+                        <div class="control">
+                            <input class="input" id="my-form" type="text" placeholder="Your Name">
+                        </div>
                 </div>
 
                 <div class="field mb-6">
                     <label class="label has-text-white is-size-3">Email</label>
                     <div class="control">
-                        <input class="input email" type="email" placeholder="Your Email">
+                        <input class="input email" type="email" name="email" placeholder="Your Email">
                     </div>
                 </div>
                 <label class="label has-text-white comment is-size-3">Message</label>
-                <textarea class="textarea mb-6" placeholder="Your Message"></textarea>
+                <textarea class="textarea mb-6" type="text" name="message" placeholder="Your Message"></textarea>
                 <div class="has-text-justified">
-                    <a class="button is-black is-medium has-text-white">Send my email!</a>
+
+                    <button class="button is-dark is-large is-size-3 is-fullwidth" id="my-form-button">Submit</button>
                 </div>
-                <div class="emailNotification has-text-white"></div>
+                <div class="has-text-white">
+                    <p id="my-form-status" class="has-text-white mt-6"></p>
+                    </form>
+                </div>
             </div>
+
             <div class="column is-3">
 
             </div>
