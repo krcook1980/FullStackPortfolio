@@ -1,5 +1,5 @@
 # FullStackPortfolio
-Updated portfolio using Bulma. Included 6 completed projects on my portfolio page, with links to the deployed page from GitHub pages. Contact me form does send actual email. Resume button downloads my current resume. All pages are responsive and use symantic HTML. 
+Updated [portfolio](https://krcook1980.github.io/FullStackPortfolio/) using Bulma. Included 6 completed projects on my portfolio page, with links to the deployed page from GitHub pages. Contact me form does send actual email. Resume button downloads my current resume. All pages are responsive and use symantic HTML. 
 
 ## Resources
 - [GitHub](https://github.com/)
