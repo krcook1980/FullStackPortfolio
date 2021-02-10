@@ -1,6 +1,7 @@
 var burgerBtn = $("#burger");
 var menuList = $("#menu");
 var contact = $(".contact").val();
+var bodyContent = "";
 
 burgerBtn.click(function(){
   burgerBtn.removeAttr("aria-expanded", "false");
@@ -15,12 +16,15 @@ menuList.click(function(){
 });
 
   $("#button").click(function() {
+    bodyContent = "From " + $(".contact").val() + " at " + $(".email").val() + " says " + $(".message").val();
+    
+    console.log(bodyContent);
     Email.send({
       SecureToken : "b8b15915-b696-4c2b-91dc-780fdd215e01",
       To : 'kellyrcook1980@gmail.com',
       From : "kcookwebdevelopment@gmail.com",
       Subject : "Portfolio Contact Me",
-      Body : "From " + $(".contact").val() + " at " + $(".email").val() + " says " + $(".message").val()
+      Body : bodyContent
   }).then(function (message) {
     $("#status").empty();
     console.log(message);
