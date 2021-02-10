@@ -4,7 +4,7 @@ Updated [portfolio](https://krcook1980.github.io/FullStackPortfolio/) using Bulm
 ## Resources
 - [GitHub](https://github.com/)
 - [Bulma](https://bulma.io/)
-- [Formspree](https://formspree.io) for email functionality on contact me page
+- [smtpjs.com](https://smtpjs.com) for email functionality on contact me page
 - [W3 Schools](https://www.w3schools.com/)
 - [Stackoverflow](https://stackoverflow.com/)
 - [freeformatter](https://www.freeformatter.com/html-validator.html)
