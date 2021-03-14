@@ -2,9 +2,10 @@
     background-image: url("assets/brian-patrick-tagalog-_8hGFBxWD0A-unsplash.jpg");
     background-repeat: no-repeat, repeat;
     background-color: #171717; /* Used if the image is unavailable */
-    height: 1500px;
+    /* height: 1500px; */
     background-size: cover;
     overflow: auto;
+    height: 100vh;
 }
 
 .navbar{
