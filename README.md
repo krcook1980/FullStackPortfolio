@@ -12,5 +12,5 @@ Updated [portfolio](https://krcook1980.github.io/FullStackPortfolio/) using Bulm
 ## Screenshots
 
 <img src="https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/rm1.JPG">
-<img src="https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/rm2.JPG">
+
 <img src="https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/rm3.JPG">
